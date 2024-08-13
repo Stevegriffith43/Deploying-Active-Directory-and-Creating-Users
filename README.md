@@ -9,6 +9,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Active Directory Domain Services
+- Powershell
 
 <h2>Operating Systems Used </h2>
 
@@ -54,5 +55,14 @@ Login to the DC-1 and install Active Directory Domain Services. Promote as the D
 <p>
 In Active Directory Users and Computers (ADUC), create an Organizational unit (OC) called "_EMPLOYEES", "_ADMINS", new employee named "John Doe" same password with "jane_admin".
   Add jane_admin to the "Domain Admins" security group". Logout to then log back in as "mydomain.com\jane_admin".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Setup a remote desktop connecetion for non-administrative users on Client-1, Login to DC-1 as jane_admin, Open PowerShell_ise as an adminstrator, Create a new file and paste the contents of the script into it, Run the script and observe the accounts in the OU
+  attempt to log into Client-1 with one of the accounts (take note of the passoword in the script).
 </p>
 <br />
