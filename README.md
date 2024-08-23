@@ -90,7 +90,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <br />
 
-<h3>Create a bunch of additional users and attempt to log into client-1 with one of the users</h3>
+<h3>Create a bunch of additional users and attempt to log into client-1 with one of the users (Link to script below)</h3>
 <a href="https://github.com/Stevegriffith43/AD_Powershell-Generate_Names_Create_Users/blob/main/Generate-Names-Users-Passwords">Script<\a>
 
 <body>
@@ -104,6 +104,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 
 ![image](https://github.com/user-attachments/assets/172a23b9-4c03-48a3-bed7-84edb5fc18b5)
-
+![image](https://github.com/user-attachments/assets/b88f953c-12eb-4db1-9efa-593232fad966)
 
 <br />
