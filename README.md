@@ -25,7 +25,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h1>Deployment and Configuration Steps</h1>
 
-<h3>Create a resoruce group, virtual network and subnet, two VMs named "DC-1 and "Client-1". We will also set the Domain controllers "NIC" Network interface card to be static</h3>
+<h3>Setup Rescources in Azure</h3>
+
+<p>
+  Create a resoruce group, 
+  Virtual network and subnet, 
+  Two VMs named "DC-1 and "Client-1"
+  We will also set the Domain controllers "NIC" Network interface card to be static
+</p>
 
 ![image](https://github.com/user-attachments/assets/8459f85c-8c17-4e6f-889a-8a52ee8aa702)
 ![image](https://github.com/user-attachments/assets/d749a179-589d-4b1f-98ed-deb31b209ab1)
