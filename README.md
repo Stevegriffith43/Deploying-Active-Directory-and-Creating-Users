@@ -25,20 +25,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Create a resoruce group, virtual network and subnet, two VMs named "DC-1 and "Client-1". We will also set the Domanain controllers "NIC" Network interface card to be static.
-</p>
-<br />
+<h3>Create a resoruce group, virtual network and subnet, two VMs named "DC-1 and "Client-1". We will also set the Domain controllers "NIC" Network interface card to be static</h3>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Login into Client-1 and ping DC-1s private address with "ping -t private ip address". Login to the Domain Controller and enable ICPv4 on the local Firewall. Then check back into Client-1 to observe the changes and establish a conncection to DC-1.
-</p>
+![image](https://github.com/user-attachments/assets/8459f85c-8c17-4e6f-889a-8a52ee8aa702)
+![image](https://github.com/user-attachments/assets/d749a179-589d-4b1f-98ed-deb31b209ab1)
+
+<h3>Login into Client-1 and ping DC-1s private address with "ping -t private ip address". Login to the Domain Controller and enable ICPv4 on the local Firewall. Then check back into Client-1 to observe the changes and establish a conncection to DC-1.</h3>
+
+
+
 <br />
 
 <p>
