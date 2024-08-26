@@ -102,16 +102,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 <h2>Create additional users and attempt to log into client-1 with one of the users (Link to the script below)</h2>
+
+<div>
 <a href="https://github.com/Stevegriffith43/AD_Powershell-Generate_Names_Create_Users/blob/main/Generate-Names-Users-Passwords">Script<\a>
+</div>
 
-
-  
-    - Login to DC-1 as jane_admin
-    - Open PowerShell_ise as an administrator
-    - Create a new File and paste the contents of the script into it(This script will auto-create random names)
-    - Run the script and observe the accounts being created
-    - When finished, open ADUC and observe the accounts in the appropriate OU
-    - attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+ - Login to DC-1 as jane_admin
+ - Open PowerShell_ise as an administrator
+ - Create a new File and paste the contents of the script into it(This script will auto-create random names)
+ - Run the script and observe the accounts being created
+ - When finished, open ADUC and observe the accounts in the appropriate OU
+ - attempt to log into Client-1 with one of the accounts (take note of the password in the script)
 
 
 ![image](https://github.com/user-attachments/assets/172a23b9-4c03-48a3-bed7-84edb5fc18b5)
