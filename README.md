@@ -23,8 +23,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Install Active Directory 
 - Create an Admin and Normal User Accounts in AD
 
-<h2>Deployment and Configuration Steps</h2>
-
 <h2>Setup Rescources in Azure</h2>
 
  - Create a resource group 
