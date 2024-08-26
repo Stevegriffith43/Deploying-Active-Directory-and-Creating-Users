@@ -18,26 +18,29 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Setup Rescources in Azure
+- Setup Resources in Azure
 - Ensure Connectivity between the client and Domain controller
 - Install Active Directory 
 - Create an Admin and Normal User Accounts in AD
 
-<h1>Deployment and Configuration Steps</h1>
+<h2>Deployment and Configuration Steps</h2>
 
-<h3>Setup Rescources in Azure</h3>
+<h2>Setup Rescources in Azure</h2>
 
-<p>
-  Create a resoruce group, 
-  Virtual network and subnet, 
-  Two VMs named "DC-1 and "Client-1"
-  We will also set the Domain controllers "NIC" Network interface card to be static
-</p>
+ - Create a resource group 
+ - Virtual network and subnet 
+ - Two VMs named "DC-1 and "Client-1"
+ - We will also set the Domain controllers "NIC" Network interface card to be static
+
 
 ![image](https://github.com/user-attachments/assets/8459f85c-8c17-4e6f-889a-8a52ee8aa702)
 ![image](https://github.com/user-attachments/assets/d749a179-589d-4b1f-98ed-deb31b209ab1)
 
-<h3>Login into Client-1 and ping DC-1s private address with "ping -t (perpetual ping)". Login to the Domain Controller and enable ICPv4 on the local Firewall. Then check back into Client-1 to observe the changes and establish a conncection to DC-1.</h3>
+<h2>Ensure connectivity between Client-1 and Domain Controller</h2>
+
+- Login into Client-1 and ping DC-1 private address with "ping -t (perpetual ping)"
+- Login to the Domain Controller and enable ICPv4 on the local Firewall
+- Then check back into Client-1 to observe the changes and establish a connection to DC-1.
 
 ![image](https://github.com/user-attachments/assets/62796127-a5e0-426f-ac39-3dc6244a2803)
 ![image](https://github.com/user-attachments/assets/e2f3e0ce-f3ca-496c-b2e5-ed6a8d96284a)
